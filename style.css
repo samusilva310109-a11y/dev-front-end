@@ -1,0 +1,56 @@
+/* RESET CSS*/
+*{
+    margin: 0; /*para resetar as margens colocando como 0*/
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display:flex;
+    flex-direction: column;
+
+
+}
+body{
+    background-color:cornsilk;
+    height: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 128px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 24px;
+    font-family:arial;
+    text-align: center;
+    font-weight: 100;
+}
+
+.destaque{
+    background-color: black;
+    color:white;
+    padding: 12px 36px;
+    transition: 1s;
+}
+
+.destaque:hover{
+    padding: 12px 64px;
+    background-color: lightslategray;
+
+}
+.logos-redeSocial{
+    margin-top: 25px;
+    display: flex; /*melhor forma para começar a centralizar um conteúdo*/
+    justify-content: center; /*centraliazando o conteudo*/
+    gap: 10px; /*o uso do gap serve para deixar um espaço entrre os elementos*/
+}
+.logos-redeSocial img{
+    width: 48px;
+   
+
+}
